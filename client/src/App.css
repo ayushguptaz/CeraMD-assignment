@@ -1,0 +1,26 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@400;600&display=swap');
+
+.App {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;        /* Take full browser height */
+    width: 100vw;         /* Take full browser width */
+    background-color: #FFF2F2; /* Overall background color */
+    font-family: 'Raleway', sans-serif;
+  }
+  
+  .Panes {
+    display: flex;
+    flex: 1;              /* This takes the remaining space after TopBar & MainSection */
+    font-family: 'Raleway', sans-serif;
+    width: 100%;
+  }
+  body, html {
+    margin: 0;
+    padding: 0;
+    font-family: 'Raleway', sans-serif; /* or any other font */
+    /* Optional: use box-sizing to make layouts easier */
+    box-sizing: border-box;
+  }
+  

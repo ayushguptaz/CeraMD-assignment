@@ -1,0 +1,11 @@
+.LeftPane {
+    background-color: #A9B5DF; /* Distinct color */
+    width: 50%;   
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border-radius: 15px;
+    margin-left: 15px;
+    margin-right: 15px;
+    /* gap: 10px;          1/2 of the container width */
+  }
+  
